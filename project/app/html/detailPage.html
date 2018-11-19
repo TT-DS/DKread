@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>多看阅读</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+	</head>
+	<body>
+		<!--多看阅读头部开始-->
+		<header>
+			
+		</header>
+		<!--多看阅读头部结束-->
+		<!--多看阅读搜索框部分开始-->
+		<div class="DK-seek" id="seek">
+			
+		</div>
+		<!--多看阅读搜索框部分结束-->
+		<!--多看阅读导航栏开始-->
+		<div class="DK-nav" id="nav">
+			
+		</div>
+		<!--多看阅读导航栏结束-->
+		<!--多看阅读详情页主体部分开始-->
+		<div class="DK-detailPage">
+		</div>
+			<script type="text/html" id="banner-img">
+			<!--购物车标题部分-->
+			<div class="DK-shopping-title">
+				<b>当前位置：</b>
+				<a href="/index.html">首页</a>
+				<span>></span>
+				<span>{{product.name}}</span>
+			</div>
+			<!--详情页主体要内容区域开始-->
+			<div class="DK-detailPage-body">
+				<!--左边部分开始-->
+				<div class="DK-detailPage-left">
+					<div class="DK-detailPage-left-img">
+					    <img src="{{product.url}}">
+						<div class="DK-detailPage-left-title">
+							<h3>{{product.name}}</h3>
+							<div class="star">
+							</div>
+							<p>作者:<a href="#">{{product.author}}</a></p>
+							<p>译者:<span>{{product.translator}}</span></p>
+							<p>版权:<a href="#">{{product.power}}</a></p>
+							<p>出版:<span>{{product.time}}</span></p>
+							<a href="#" class="DK-detailPage-left-img-a">读者保障计划</a>
+							<div class="DK-detailPage-left-price">
+								<b>¥{{product.price}}</b>
+								<span>|</span>
+								<span>原价¥{{product.oldprice}}</span>
+							</div>
+							<div class="DK-detailPage-left-button">
+								<a href="#" class="button-read">阅读<a/>
+								<a href="#" class="button-buy">购买全本<a/>
+								<ul>
+									<li><em class="detail-shopping">加入购物车<span class="detail-shopping1">id={{product.id}}</span></em></li>
+									<li><span>|</span></li>
+									<li><a href="#">已收藏</a></li>
+									<li><span>|</span></li>
+									<li><a href="#">分享</a></li>
+									<li><span>|</span></li>
+									<li><b></b><a href="#">赠送</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--简介、目录、更多信息开始-->
+					<div class="DK-detailPage-left-intro">
+						<ul class="DK-detailPage-left-intro-title">
+							<li class="title-b">
+								<a href="#">简介</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">目录</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">更多信息</a>
+							</li>
+						</ul>
+						<!--内容区域-->
+						<div class="DK-detailPage-left-intro-content">
+							<p>{{product.edition}}</p>
+						</div>
+						
+					</div>
+					<!--简介、目录、更多信息结束-->
+					<!--精彩评论开始-->
+					<div class="DK-detailPage-left-comment">
+						<div class="DK-detailPage-left-comment-title">
+							<h3>
+								<a href="#">精彩评论</a>
+							</h3>
+						</div>
+						<div class="DK-detailPage-left-comment-content">
+							<p>
+								<a href="#">零零散散把至今已经出的18册全部看完了，买了纸书也买了电子版，结果纸书完全没拆封全看电子版了，后面几本看的是纸书，内容很精彩，墙裂推荐！</a>
+							</p>
+							<div class="content-star">
+								<span>华华丹-</span>
+								<span>2018-08-06</span>
+							</div>
+						</div>
+						<div class="DK-detailPage-left-comment-content">
+							<p>
+								<a href="#">零零散散把至今已经出的18册全部看完了，买了纸书也买了电子版，结果纸书完全没拆封全看电子版了，后面几本看的是纸书，内容很精彩，墙裂推荐！</a>
+							</p>
+							<div class="content-star">
+								<span>华华丹-</span>
+								<span>2018-08-06</span>
+							</div>
+						</div>
+						<div class="DK-detailPage-left-comment-content">
+							<p>
+								<a href="#">零零散散把至今已经出的18册全部看完了，买了纸书也买了电子版，结果纸书完全没拆封全看电子版了，后面几本看的是纸书，内容很精彩，墙裂推荐！</a>
+							</p>
+							<div class="content-star">
+								<span>华华丹-</span>
+								<span>2018-08-06</span>
+							</div>
+						</div>
+						<div class="DK-detailPage-left-comment-content">
+							<p>
+								<a href="#">零零散散把至今已经出的18册全部看完了，买了纸书也买了电子版，结果纸书完全没拆封全看电子版了，后面几本看的是纸书，内容很精彩，墙裂推荐！</a>
+							</p>
+							<div class="content-star">
+								<span>华华丹-</span>
+								<span>2018-08-06</span>
+							</div>
+						</div>
+					</div>
+					<!--精彩评论开始-->
+				</div>
+				<!--左边部分结束-->
+				
+				<!--右边部分开始-->
+				<div class="DK-detailPage-right">
+					<!--移动设备阅读-->
+					<div class="DK-detailPage-right-read">
+						<h4>
+							移动设备阅读
+						</h4>
+						<div class="DK-detailPage-right-logo">
+							<a href="#" class="logo-img"><span></span>Android</a>
+							<a href="#" class="logo-img"><span></span>IOS</a>
+							<a href="#" class="logo-img"><span></span>Kindle</a>
+						</div>
+						<div class="DK-detailPage-right-QR">
+							<p>扫二维码下载客户端</p>
+						</div>
+					</div>
+					<!--图书标签-->
+					<div class="DK-detailPage-right-label">
+						<h4>
+							图书标签
+						</h4>
+						<div class="DK-detailPage-right-label-body">
+							<span>易中天</span>
+							<span>中国科幻</span>
+							<span>小说</span>
+							<span>地球往事</span>
+							<span>心灵读物</span>
+							<span>国宝医师</span>
+							<span>成功励志</span>
+							<span>生命</span>
+							<span>人生感情</span>
+					    </div>
+					</div>
+					<!--买过此书的人还买过-->
+					<div class="DK-detailPage-right-other">
+						<h4>买过此书的人还买过</h4>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">未来边缘（刘慈欣佳作选）</a>
+							<p>刘慈欣</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">肯·福莱特经典：世界的凛冬（共3册）</a>
+							<p>【英】肯·福莱特</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">未来边缘（刘慈欣佳作选）</a>
+							<p>刘慈欣</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">未来边缘（刘慈欣佳作选）</a>
+							<p>刘慈欣</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">未来边缘（刘慈欣佳作选）</a>
+							<p>刘慈欣</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+					<div class="DK-detailPage-right-other-img">
+						<div class="other-img-left">
+							<a href="#"><img src="/images/mg.jpg"></a>
+						</div>
+						<div class="other-img-right">
+							<a href="#">未来边缘（刘慈欣佳作选）</a>
+							<p>刘慈欣</p>
+							<b>¥56.50</b><span>¥150.56</span>
+						</div>
+					</div>
+				</div>
+				<!--右边部分结束-->
+			</div>
+			<!--详情页主体要内容区域结束-->
+			</script>
+		<!--多看阅读详情页主体部分结束-->
+		<!--多看阅读底部开始-->
+		<footer>
+			
+		</footer>
+		<!--多看阅读底部结束-->
+		<!--加入购物车确认弹框开始-->
+		<div class="shopping-affirm">
+			<div class="shopping-affirm-body">
+				<div class="shopping-affirm-img">
+					<h2>已将图书添加到购物车</h2>
+					<a href="shopping.html">去购物车结算</a>
+					<a href="avascript:void(0);" class="shopping-affirm-img-btn">继续选书</a>
+				</div>
+			</div>
+		</div>
+		<!--加入购物车确认弹框结束-->
+	</body>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/detail.js"></script>
+</html>

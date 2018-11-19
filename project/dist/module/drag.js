@@ -1,0 +1,1 @@
+"use strict";define(["jquery"],function(t){t.fn.extend({drag:function(e){var u=this;(e?this.find(e):this).mousedown(function(e){var o=e.pageY-u.offset().top,f=e.pageX-u.offset().left;t(document).mousemove(function(e){var t=e.pageY-o,n=e.pageX-f;u.css({top:t,left:n}),e.preventDefault()}),t(document).mouseup(function(){t(this).off("mousemove")}),e.preventDefault()})}})});

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>多看阅读</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+	</head>
+	<body>
+		<!--多看阅读头部开始-->
+		<header>
+			
+		</header>
+		<!--多看阅读头部结束-->
+		<!--多看阅读搜索框部分开始-->
+		<div class="DK-seek" id="seek">
+			
+		</div>
+		<!--多看阅读搜索框部分结束-->
+		<!--多看阅读导航栏开始-->
+		<div class="DK-nav" id="nav">
+			
+		</div>
+		<!--多看阅读导航栏结束-->
+		<!--多看阅读购物车主体部分开始-->
+		<div class="DK-shopping">
+             <!--购物车标题部分-->
+			<div class="DK-shopping-title">
+				<b>当前位置：</b>
+				<a href="/index.html">首页</a>
+				<span>></span>
+				<span>购物车</span>
+			</div>
+			<!--购物车主体要内容区域-->
+			<div class="DK-shopping-body">
+				<div class="DK-shopping-state">
+					<div class="DK-shopping-state-title">
+						<h3>购物车状态</h3>
+						<div class="DK-shopping-button">
+							<span>共<span class="book-all">0</span>本，应付金额</span>
+							<b class="all-price">0</b>
+							<a href="#">去结算</a>
+						</div>
+					</div>
+					<div class="DK-shopping-all">
+						<label>
+							<input type="checkbox" id="checkbox-all">
+							<span>全选</span>
+							<a href="#"><b></b>删除选中图书</a>
+						</label>
+					</div>
+					<!--购物车购物列表开始-->
+					<div class="DK-shopping-list">
+						<ul class="shopping-ul">
+                            
+						</ul>
+					</div>
+					<!--购物车购物列表结束-->
+					<div class="DK-shopping-all">
+						<label>
+							<input type="checkbox" >
+							<span>全选</span>
+							<a href="#"><b></b>删除选中图书</a>
+						</label>
+					</div>
+					<!--总金额-->
+					<div class="DK-shopping-allprice">
+						<a href="#"><再逛逛</a>
+						<span>应付金额</span>
+						<b class="all-price">0</b>
+					</div>
+					<a href="#" class="list-button">
+						去结算
+					</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/html" id="banner-img">
+			{{each product item i}}
+					        <li class="shopping-li">
+								<div class="list-check">
+									<input type="checkbox" class="checkbox">
+								</div>
+								<div class="list-img">
+									<div class="list-img-image">
+									    <img src="{{item.url}}">
+									</div>
+									<div class="list-img-title">
+										<a href="detailPage.html?id={{ item.id }}">{{item.name}}</a>
+										<p>{{item.author}}</p>
+								    </div>
+								</div>
+								<div class="list-price">
+									<span>¥<span class="DK-list-price">{{item.price}}</span></span>
+									<div class="list-num">
+										<button class="num-sub">-</button>
+										<input type="text" value="{{item.num}}" class="num-sum">
+										<button class="num-add">+</button>
+									</div>
+								</div>
+								<div class="list-collect">
+									<a href="#">加入收藏</a>
+									<span>|</span>
+									<a  class="delete" title="删除图书"><b></b><em class="delete-span">id={{item.id}}</em></a>
+								</div>
+							</li>
+			{{/each}}
+		</script>
+		<!--多看阅读购物车主体部分结束-->
+		<!--加入购物车确认弹框开始-->
+		<div class="shopping-affirm1">
+			<div class="shopping-affirm-body1">
+				<div class="shopping-affirm-img1">
+					<h4>确定删除此商品？</h4>
+					<a href="javascript:void(0);" id="del-btn">确定</a>
+					<a href="javascript:void(0);" id="del-btn1" class="shopping-affirm-img-btn1">取消</a>
+				</div>
+			</div>
+		</div>
+		<!--加入购物车确认弹框结束-->
+		<!--多看阅读底部开始-->
+		<footer>
+			
+		</footer>
+		<!--多看阅读底部结束-->
+	</body>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/shopping.js"></script>
+</html>

@@ -1,0 +1,441 @@
+/*详情页样式*/
+.DK-detailPage{
+	height: 1520px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-bottom: 1px solid #e4ded8;
+}
+/*详情页body样式*/
+.DK-detailPage-body{
+	height: 1475px;
+	width: 965px;
+	margin: 0 auto;
+}
+/*左边部分开始*/
+.DK-detailPage-left{
+	height: 1475px;
+	width: 700px;
+	float:left;
+}
+/*图书图片以及书名部分样式*/
+.DK-detailPage-left-img{
+	width: 700px;
+	height: 245px;
+}
+.DK-detailPage-left-img img{
+	height: 245px;
+	width: 185px;
+	float:left;
+}
+.DK-detailPage-left-title{
+	height: 245px;
+	width: 488px;
+	float:right;
+}
+.DK-detailPage-left-title p{
+	font-size:12px;
+	color:#666666;
+	margin-top: 5px;
+}
+.DK-detailPage-left-title p a{
+	color:#613f23;
+}
+.DK-detailPage-left-title p a:hover{
+	color:#f7942b;
+}
+.DK-detailPage-left-title .star{
+	height: 15px;
+	width: 80px;
+	margin-top: 15px;
+	background-image: url(/images/sprite-24.png);
+	background-repeat: no-repeat;
+	background-position: left -238px; 
+	margin-bottom: 10px;
+}
+/*读者保障计划样式*/
+.DK-detailPage-left-img-a{
+	display: block;
+	height: 27px;
+	width: 116px;
+	font-size: 13px;
+	padding-left: 25px;
+	line-height: 27px;
+	background-image: url(/images/bao.png);
+	background-repeat: no-repeat;
+	color:#ed6c00;
+	margin-top: 10px;
+}
+/*图书价格*/
+.DK-detailPage-left-price{
+	height: 16px;
+	width:185px;
+	font-size: 13px;
+	line-height: 16px;
+	color:#a4a4a4;
+	margin-top: 3px;
+}
+.DK-detailPage-left-price b{
+	color:#9a8069;
+	font-size: 14px;
+}
+.DK-detailPage-left-price span{
+	margin-left: 8px;
+}
+/*立即阅读按钮部分样式*/
+.DK-detailPage-left-button{
+	height: 34px;
+	width:488px;
+	padding-top: 11px;
+}
+.DK-detailPage-left-button .button-read{
+	display: inline-block;
+	height: 31px;
+	width:74px;
+	background: #4d87de;
+	border-radius: 4px;
+	border: 1px solid #3d76de;
+	color:#fff;
+	text-align: center;
+	line-height: 31px;
+	font-size:13px;
+}
+.DK-detailPage-left-button a:hover{
+	text-decoration: underline;
+}
+.DK-detailPage-left-button .button-buy{
+	display: inline-block;
+	height: 31px;
+	width:88px;
+	border-radius: 4px;
+	border: 1px solid #c2b3a7;
+	color:#666666;
+	text-align: center;
+	line-height: 31px;
+	font-size:13px;
+}
+.DK-detailPage-left-button ul{
+	float:right;
+	height: 31px;
+	font-size:12px;
+}
+.DK-detailPage-left-button ul li{
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	color:#613f23;
+}
+.DK-detailPage-left-button ul li em{
+    font-style: normal;
+    cursor: pointer;
+}
+.DK-detailPage-left-button ul li em:hover{
+    color:#f7942b;
+}
+.DK-detailPage-left-button ul li em span{
+    display: none;
+}
+.DK-detailPage-left-button ul li span{
+	padding-left: 10px;
+	padding-right: 10px;
+	color:#e1d4d5;
+}
+.DK-detailPage-left-button ul li a{
+	color:#613f23;
+}
+.DK-detailPage-left-button ul li a:hover{
+	text-decoration: none;
+	color:#f7942b;
+}
+.DK-detailPage-left-button ul li b{
+	display: inline-block;
+	height: 17px;
+	width:17px;
+	background-image: url(/images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -110px -160px;
+	margin-right: 5px;
+}
+/*简介、目录样式*/
+.DK-detailPage-left-intro{
+	height: 480px;
+	width:700px;
+}
+.DK-detailPage-left-intro-title{
+	height: 28px;
+	width:680px;
+	border-bottom: 1px solid #dbd4cd;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.DK-detailPage-left-intro-title li{
+	float:left;
+	font-size:13px;
+}
+.DK-detailPage-left-intro-title li a{
+	color:#613f23;
+}
+.DK-detailPage-left-intro-title li span{
+	color:#e1d4d5;
+	margin-left:30px;
+	margin-right: 30px;
+}
+.DK-detailPage-left-intro-title li a:hover{
+	color:#f7942b;
+}
+.title-b{
+	font-weight: bolder;
+}
+/*内容区域样式*/
+.DK-detailPage-left-intro-content{
+	height: 386px;
+	width:659px;
+	margin-left: 15px;
+	margin-top:25px;
+	font-size: 13px;
+	color:#666666;
+	line-height: 25px;
+}
+/*精彩评论*/
+.DK-detailPage-left-comment{
+	height: 700px;
+	width:700px;
+}
+.DK-detailPage-left-comment-title{
+	height: 35px;
+	width: 700px;
+	overflow: hidden;
+	border-bottom: 1px solid #dddddd;
+}
+.DK-detailPage-left-comment-title h3{
+	padding-left: 10px;
+	border-left: 5px solid red;
+}
+.DK-detailPage-left-comment-title h3 a{
+	color:#333333;
+}
+.DK-detailPage-left-comment-content{
+	height: 95px;
+	width: 700px;
+	margin-top: 6px;
+	border-bottom: 1px solid #dddddd;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.DK-detailPage-left-comment-content a{
+	font-size: 13px;
+	color:#613f23;
+}
+.DK-detailPage-left-comment-content a:hover{
+	color:black;
+}
+.DK-detailPage-left-comment-content .content-star{
+	height: 18px;
+	width:500px;
+	margin-top: 15px;
+	background-image: url(/images/sprite-24.png);
+	background-repeat: no-repeat;
+	background-position: left -276px; 
+	padding-left: 80px;
+	font-size: 12px;
+	color:#ad97a5;
+	line-height: 18px;
+	float:left;
+}
+
+
+/*右边部分开始*/
+.DK-detailPage-right{
+	height: 1475px;
+	width: 225px;
+	float:right;
+}
+.DK-detailPage-right-read{
+	height: 304px;
+	width: 225px;
+	background-color: #f3f0eb;
+}
+.DK-detailPage-right-read h4{
+	height: 40px;
+	width: 205px;
+	border-bottom: 1px solid #e4ded7;
+	color:#333333;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.DK-detailPage-right-logo{
+	height: 100px;
+	width: 225px;
+}
+.DK-detailPage-right-logo .logo-img{
+	display: inline-block;
+	height: 67px;
+	width: 55px;
+	color:#613f23;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 19px;
+}
+.DK-detailPage-right-logo .logo-img:hover{
+	color:#f7942b;
+}
+.DK-detailPage-right-logo .logo-img span{
+	display: block;
+	height: 33px;
+	width: 28px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-image: url(/images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -37px 0px;
+}
+.DK-detailPage-right-logo .logo-img:nth-child(2) span{
+	background-position: -74px 0px;
+}
+.DK-detailPage-right-logo .logo-img:nth-child(3) span{
+	background-position: 0px 0px;
+}
+/*二维码*/
+.DK-detailPage-right-QR{
+	height: 163px;
+	width:225px;
+	background-image: url(/images/qr_detail.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	text-align: center;
+	overflow: hidden;
+}
+.DK-detailPage-right-QR p{
+	margin-top: 130px;
+	font-size: 13px;
+	color:#333333;
+}
+/*图书标签样式*/
+.DK-detailPage-right-label{
+	height: 220px;
+	width:225px;
+	margin-top: 35px;
+}
+.DK-detailPage-right-label h4{
+	color:#333333;
+	height: 35px;
+	width: 225px;
+}
+.DK-detailPage-right-label-body{
+	height: 185px;
+	width: 225px;
+	overflow: hidden;
+}
+.DK-detailPage-right-label-body span{
+	display: inline-block;
+	height: 25px;
+	background-color: #ebe7e3;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	color:#613f23;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+.DK-detailPage-right-label-body span:hover{
+	color:#f7942b;
+}
+/*买过此书的人还买过样式*/
+.DK-detailPage-right-other{
+	height: 45px;
+	width: 225px;
+}
+.DK-detailPage-right-other-img{
+	height: 120px;
+	width: 225px;
+}
+.DK-detailPage-right-other-img .other-img-left{
+	height:120px;
+	width:80px;
+    float:left;
+}
+.DK-detailPage-right-other-img .other-img-left img{
+	height:100px;
+	width:80px;
+}
+.DK-detailPage-right-other-img .other-img-right{
+	height:120px;
+	width:130px;
+    float:left;
+    padding-left: 15px;
+    overflow: hidden;
+}
+.DK-detailPage-right-other-img .other-img-right a{
+	color:#613f23;
+	font-size: 13px;
+}
+.DK-detailPage-right-other-img .other-img-right a:hover{
+	color:#f7942b;
+}
+.DK-detailPage-right-other-img .other-img-right p{
+	color:#999999;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.DK-detailPage-right-other-img .other-img-right b{
+	font-size: 13px;
+	color:#333333;
+	margin-top: 5px;
+	margin-right:10px ;
+}
+.DK-detailPage-right-other-img .other-img-right span{
+	font-size: 13px;
+	color:#999999;
+	text-decoration: line-through;
+}
+/*加入购物车确认弹框*/
+.shopping-affirm{
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    display: none;
+}
+.shopping-affirm-body{
+    height:50%;
+    width:665px;
+    margin:10% auto;
+    background-color: #ffffff;
+    border:1px solid #ed6c00;
+
+}
+.shopping-affirm-img{
+    height:70%;
+    width:500px;
+    margin: 10% auto;
+    text-align: center;
+}
+.shopping-affirm-img h2{
+    color: #333333;
+    margin-top: 20px;
+}
+.shopping-affirm-img a{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    background: linear-gradient(to top,#df4833,#e66a52);
+    border-radius: 4px;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+    border:1px solid #dd4731;
+    font-size: 13px;
+}
+.shopping-affirm-img .shopping-affirm-img-btn{
+    background: #f7f6f3;
+    color:#333333;
+    border:1px solid #c2b3a7;
+}

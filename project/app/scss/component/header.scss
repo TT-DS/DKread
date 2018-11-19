@@ -1,0 +1,67 @@
+/*多看阅读头部样式*/
+header{
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #eae6e2;
+    border-bottom: 1px solid #eae6e2;
+    min-width: 1200px;
+   
+}
+.header{
+    height:40px;
+    width:1200px;
+    margin:0 auto;
+    font-size:12px;
+    line-height: 40px;
+    
+}
+.header ul:nth-child(1){
+    float:left;
+}
+.header ul:nth-child(2){
+    float:right;
+}
+.header ul:nth-child(2) a{
+    color:#613f23;
+}
+.header ul:nth-child(2) a:hover{
+    color:#fa7a20;
+}
+.header ul:nth-child(2) span{
+    color: #613F23;
+}
+.header ul li{
+    height: 40px;
+    float:left;
+    padding-left: 13px;
+    padding-right: 13px;
+    color:#8c8c8c;
+    border: 0px;
+}
+.header ul li a{
+    color:#8c8c8c;
+}
+.header ul li a:hover{
+    color:black;
+}
+.header .li-top{
+    padding-left: 0px;
+}
+.header .dk a{
+    color:black;
+}
+/*购物车图标样式*/
+.shopping-img{
+    display: inline-block;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    margin-top: 13px;
+    right: 325px;
+    background-image: url(/images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: left -157px; 
+}
+/*鼠标悬停用户名下拉样式*/
+
+

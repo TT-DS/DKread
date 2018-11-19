@@ -1,0 +1,197 @@
+/*多看阅读登录样式*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #f5f5f5;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*多看阅读登录框部分样式*/
+.DK-login{
+	height:620px;
+	width:854px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.DK-login-body{
+	height: 620px;
+	width:365px;
+	margin: 0 auto;
+	overflow: hidden;
+	 position: relative;
+}
+.DK-login-body p:nth-child(1){
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.DK-login-body p:nth-child(2){
+	font-size: 29px;
+	color:#424242;
+	text-align: center;
+	margin-top: 28px;
+}
+.DK-login-body ul{
+	height: 48px;
+	width: 362px;	
+	margin-top: 47px;
+}
+.DK-login-body ul li:nth-child(1){
+	height: 48px;
+	width: 347px;
+	border:1px solid #e0e0e0;	
+	padding-left: 15px;
+}
+.DK-login-body ul li:nth-child(2){
+	height: 48px;
+	width: 347px;
+	border:1px solid #e0e0e0;	
+	padding-left: 15px;
+	margin-top:15px;
+}
+.DK-login-body ul li:nth-child(3){
+	height: 48px;
+	width: 365px;	
+	margin-top:25px;
+}
+.DK-login-body ul li:nth-child(3) button{
+	height: 48px;
+	width: 365px;
+	background-color:#ef5b00;
+	cursor: pointer;
+	color: #fff;
+	border: 0px;
+	outline: auto;
+}
+.DK-login-body ul li:nth-child(4){
+	margin-top: 15px;
+    font-size:14px;
+    color:#757575;
+    float: right;
+}
+.DK-login-body ul li:nth-child(4) a{
+	color:#757575;
+}
+.DK-login-body ul li:nth-child(4) a:hover{
+	color:#ef5b00;
+}
+.DK-login-body ul li input{
+	height: 48px;
+	width: 332px;
+	border: 0px;
+	outline:none;
+}
+.DK-login-solid{
+	float: left;
+	width: 135px;
+	border: 1px solid #e0e0e0;
+	margin-top: 70px;
+}
+.DK-login-text{
+	float: left;
+	margin-top: 62px;
+	margin-left: 3px;
+	font-size:14px;
+	color:#b0b0b0;
+}
+.DK-login-solid1{
+	float: right;
+	width: 135px;
+	border: 1px solid #e0e0e0;
+	margin-top: 38px;
+}
+.DK-login-QQ{
+	float: left;
+	height: 40px;
+	width: 210px;
+	margin-top: 20px;
+	margin-left: 78px;
+	text-align: center;
+}
+.DK-login-QQ a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.DK-login-QQ a:nth-child(1){
+	background-image: url(../images/login/qq.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.DK-login-QQ a:nth-child(2){
+	background-image: url(../images/login/xinlang.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.DK-login-QQ a:nth-child(3){
+	background-image: url(../images/login/zfb.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.DK-login-QQ a:nth-child(4){
+	background-image: url(../images/login/wx.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+/*登录底部样式*/
+.DK-bottom{
+	height:100px;
+	width: 100%;
+}
+.DK-bottom-body{
+	height: 100px;
+	width: 854px;
+	margin: 0 auto;
+}
+.DK-bottom-body ul{
+	margin-left: 250px;
+	margin-top: 27px;
+}
+.DK-bottom-body ul li{
+	float:left;
+	height: 14px;
+	font-size:14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #757575;
+	line-height: 14px;
+	
+}
+.DK-bottom-body ul li a{
+	color:#757575;
+}
+.DK-bottom-body ul li a:hover{
+	color:#ef5b00;
+}
+.DK-bottom-body p{
+	float: left;
+	font-size:14px;
+	color: #757575;
+	margin-left: 142px;
+	margin-top: 20px;
+}
+.DK-login-body ul img{
+    height: 100px;
+    width: 100px;
+    margin-left: 126px;
+}
+//错误提示信息
+.usererr{
+    height: 25px;
+    width: 222px;
+    position: relative;
+    left: 71px;
+    top:-220px;
+    color:red;
+    text-align: center;
+    line-height: 25px;
+}

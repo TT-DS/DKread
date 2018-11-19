@@ -1,0 +1,1 @@
+"use strict";define(["tools"],function(o){function n(){}return n.prototype.nav=function(){for(var n=o.$(".subMenu"),t=0;t<n.length;t++)n[t].onclick=function(){o.$("ul",this)[0].style.display="block"}},new n});

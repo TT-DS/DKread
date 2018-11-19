@@ -1,0 +1,23 @@
+$baseColor:#333;
+$hoverColor:red;
+@mixin center($width){
+	margin-left:auto;
+	margin-right:auto;
+	width: $width;
+}
+*{margin: 0; padding: 0}
+html{font-family:"Microsoft Yahei";color:$baseColor;}
+li{list-style: none;}
+a{text-decoration:none;color:$baseColor;}
+a:hover{color:$hoverColor;}
+
+/* 元子类 */
+.fl{float: left;}
+.fr{float: right;}
+
+.center{
+	@include center(1000px);
+}
+
+
+

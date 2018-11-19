@@ -1,0 +1,341 @@
+/*多看阅读购物车样式*/
+.DK-shopping{
+	height: auto;
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 800px;
+	margin-top: 30px;
+	border-bottom: 1px solid #e4ded8;
+	overflow: hidden;
+}
+/*购物车标题样式*/
+.DK-shopping-title{
+	height: 45px;
+	width: 1200px;
+	font-size: 13px;
+}
+.DK-shopping-title b{
+	color: #555555;
+	font-weight:normal;
+}
+.DK-shopping-title a{
+	color: #555555;
+}
+.DK-shopping-title a:hover{
+	color:#f7942b;
+}
+.DK-shopping-title span{
+	color:#a4a4a4;
+}
+/*购物车主要内容区域样式*/
+.DK-shopping-body{
+	height:auto;
+	width:1200px;
+}
+.DK-shopping-state{
+	height:auto;
+	width:965px;
+	margin: 0 auto;
+}
+.DK-shopping-state-title{
+	height: 47px;
+	width: 965px;
+	line-height: 47px;
+}
+.DK-shopping-state-title h3{
+	float:left;
+	color:#333333;
+}
+.DK-shopping-button{
+	height: 47px;
+	width:270px;
+	float: right;
+	font-size:13px;
+}
+.DK-shopping-button a{
+	display: inline-block;
+	height: 35px;
+	width: 82px;
+	background: linear-gradient(to top,#df4833,#e66a52);
+	line-height: 35px;
+	text-align: center;
+	color:#ffffff;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-left: 20px;
+}
+.DK-shopping-button a:hover{
+	text-decoration: underline;
+}
+.DK-shopping-button b{
+	color:#ed6c00;
+}
+.DK-shopping-button span{
+	color:#333333;
+}
+/*全选样式*/
+.DK-shopping-all{
+    height: 48px;
+    width: 945px;
+    background-color: #f7f5f1;
+    border: 1px solid #e0dad5;
+    border-bottom: 0px;
+    line-height: 48px;
+    font-size:13px;
+    color:#666666;
+    padding-left: 20px; 
+}
+.DK-shopping-all label{
+    cursor: pointer;
+}
+.DK-shopping-all a{
+    color: #613f23;
+    padding-left: 10px;
+}
+.DK-shopping-all a:hover{
+    color:#f7942b;
+}
+.DK-shopping-all a b{
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+    background-image: url(/images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -66px -158px;
+}
+/*购物车列表样式*/
+.DK-shopping-list{
+    height: auto;
+    width:965px;
+    border: 1px solid #e0dad5;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.DK-shopping-list ul li{
+    height: 83px;
+    width: 920px;
+    border-top: 1px solid #e0dad5;
+    padding-left: 45px;
+}
+.DK-shopping-list .list-check{
+    height: 85px;
+    width: 45px;
+    line-height: 85px;
+    float: left;
+}
+/*图片*/
+.DK-shopping-list .list-img{
+    height: 75px;
+    width: 530px;
+    float: left;
+    padding-top: 10px;
+}
+.DK-shopping-list .list-img .list-img-image{
+    height: 65px;
+    width: 50px;
+    float: left;
+    
+}
+.DK-shopping-list .list-img .list-img-image img{
+    height: 65px;
+    width: 50px;    
+}
+.DK-shopping-list .list-img-title{
+    height: 65px;
+    width: 468px;  
+    float: left;
+    font-size: 12px;
+    padding-left: 12px;
+    color:#999999;
+}
+.DK-shopping-list .list-img-title a{
+    display: block;
+    font-size: 13px;
+    color:#613f23;
+    margin-bottom: 15px;
+}
+.DK-shopping-list .list-img-title a:hover{
+    color:#f7942b;
+}
+
+/*价格*/
+.DK-shopping-list .list-price{
+    height: 85px;
+    width:215px;
+    float:left;
+    line-height: 85px;
+    color:#333333;
+    font-size:13px;
+}
+/*数量*/
+.list-price .list-num{
+    margin-top: 34px;
+    margin-right: 41px;
+    height: 18px;
+    width: 80px;
+    border: 1px solid #e0dad5;
+    float: right;
+}
+.list-num .num-sub{
+    float: left;
+    border: 0px;
+    height: 18px;
+    width: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.list-num input{
+    float: left;
+    border: 0px;
+    height: 18px;
+    width: 40px;
+    outline: none;
+    text-align: center;
+}
+.list-num .num-add{
+    float: left;
+    border: 0px;
+    height: 18px;
+    width: 20px;
+    outline: none;
+    cursor: pointer;
+}
+/*收藏*/
+.DK-shopping-list .list-collect{
+    height: 85px;
+    width: 125px;
+    float: left;
+    line-height: 85px;
+    font-size: 13px;
+}
+.DK-shopping-list .list-collect a{
+    display: inline-block;
+    color:#613f12;
+    cursor: pointer;
+}
+.DK-shopping-list .list-collect a:hover{
+    color:#f7942b;
+}
+.DK-shopping-list .list-collect span{
+    display: inline-block;
+    color:#e1d4d5;
+    font-size:13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.DK-shopping-list .list-collect b{
+    display: inline-block;
+    height: 13px;
+    width: 15px;
+    background-image: url(/images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -66px -158px;
+}
+/*总金额样式*/
+.DK-shopping-allprice{
+    height: 80px;
+    width: 931px;
+    background-color: #f7f5f1;
+    border: 1px solid #e0dad5;
+    line-height: 80px;
+    padding-left:34px;
+}
+.DK-shopping-allprice a{
+    font-size: 13px;
+    color:#613F23;
+    display:inline-block;
+    float:left;
+}
+.DK-shopping-allprice a:hover{
+    color:#F7942B;
+}
+
+.DK-shopping-allprice b{
+    color:#F7942B;
+    display:inline-block;
+    margin-left: 10px;
+}
+.DK-shopping-allprice span{
+    display: inline-block;
+    font-size: 12px;
+    color:#999999;
+    display:inline-block;
+    margin-left: 710px;
+}
+/*去结算*/
+.DK-shopping .list-button{
+    display: block;
+    height:44px;
+    width:155px;
+    background: linear-gradient(to top,#df4833,#e66a52);
+    border-radius: 4px;
+    color:#ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 44px;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.DK-shopping .list-button:hover{
+    text-decoration: underline;
+}
+.list-collect .delete-span{
+    display: none;
+}
+/*加入购物车确认弹框*/
+.shopping-affirm1{
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    display: none;
+    
+   
+}
+.shopping-affirm-body1{
+    height:30%;
+    width:300px;
+    margin:15% auto;
+    background-color: #ffffff;
+    border:1px solid #ed6c00;
+
+}
+.shopping-affirm-img1{
+    height:70%;
+    width:200px;
+    margin: 10% auto;
+    text-align: center;
+   
+}
+.shopping-affirm-img1 h4{
+    color: #333333;
+    margin-top: 20px;
+}
+.shopping-affirm-img1 a{
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    background: linear-gradient(to top,#df4833,#e66a52);
+    border-radius: 4px;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+    border:1px solid #dd4731;
+    font-size: 13px;
+}
+.shopping-affirm-img1 .shopping-affirm-img-btn1{
+    background: #f7f6f3;
+    color:#333333;
+    border:1px solid #c2b3a7;
+}
+.shopping-ul .login-shopping{
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.shopping-ul .login-shopping a{
+    color:red;
+}

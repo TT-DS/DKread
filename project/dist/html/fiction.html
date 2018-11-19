@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>多看阅读</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+		
+	</head>
+	<body>
+		<!--多看阅读主页开始-->
+		<!--多看阅读头部开始-->
+		<header>
+			
+		</header>
+		<!--多看阅读头部结束-->
+		<!--多看阅读搜索框部分开始-->
+		<div class="DK-seek" id="seek">
+			
+		</div>
+		<!--多看阅读搜索框部分结束-->
+		<!--多看阅读导航栏开始-->
+		<div class="DK-nav" id="nav">
+			
+		</div>
+		<!--多看阅读导航栏结束-->
+		<!--多看阅读分类主体部分开始-->
+		<div class="DK-classift">
+			<!--多看阅读分类左边部分开始-->
+			<div class="DK-classift-left">
+				<ul class="DK-classift-left-ul" id="DK-fiction">
+					<li><a href="classift.html"><b>全部图书</b><span>8798</span></a></li>
+					<li class="ft"><a href="/html/fiction.html" style="color:#f7942b;"><b>小说</b><span>4521</span></a></li>
+					<li><a href="#"><b>经营</b><span>6732</span></a></li>
+					<li><a href="#"><b>成功励志</b><span>2356</span></a></li>
+					<li><a href="#"><b>人文社科</b><span>2312</span></a></li>
+					<li><a href="#"><b>文学</b><span>56</span></a></li>
+					<li><a href="#"><b>计算机</b><span>2321</span></a></li>
+					<li><a href="#"><b>历史</b><span>3454</span></a></li>
+					<li><a href="#"><b>生活</b><span>2314</span></a></li>
+					<li><a href="#"><b>动漫绘本</b><span>7845</span></a></li>
+					<li><a href="#"><b>传记</b><span>2348</span></a></li>
+					<li><a href="#"><b>杂志</b><span>875</span></a></li>
+					<li><a href="#"><b>原创文学</b><span>342</span></a></li>
+					<li><a href="#"><b>两性情感</b><span>545</span></a></li>
+					<li><a href="#"><b>自然科学</b><span>4234</span></a></li>
+					<li><a href="#"><b>少儿</b><span>8967</span></a></li>
+					<li><a href="#"><b>旅游</b><span>7575</span></a></li>
+					<li><a href="#"><b>政治军事</b><span>1234</span></a></li>
+					<li><a href="#"><b>艺术</b><span>2348</span></a></li>
+					<li><a href="#"><b>法律</b><span>324</span></a></li>
+					<li><a href="#"><b>教育</b><span>4563</span></a></li>
+					<li><a href="#"><b>外语</b><span>793</span></a></li>
+					<li><a href="#"><b>进口原版</b><span>873</span></a></li>
+				</ul>
+				<h2>特约推荐</h2>
+				<div class="DK-classift-ty">
+					<a href="#">
+						<img src="/images/ty.jpg">
+					</a>
+				</div>
+				<div class="DK-classift-ty">
+					<a href="#">
+						<img src="/images/ty1.jpg">
+					</a>
+				</div>
+				<div class="DK-classift-ty">
+					<a href="#">
+						<img src="/images/ty2.jpg">
+					</a>
+				</div>
+				
+			</div>
+			<!--多看阅读分类左边部分结束-->
+			<!--多看阅读分类右边部分开始-->
+			<div class="DK-classift-right">
+				<!--多看阅读分类全部图书开始-->
+				<div class="DK-classift-right-top">
+					<span>小说</span>
+					<ul class="DK-classift-right-top-ul">
+						<li><a href="#">畅销</a></li>
+						<li><a href="#">最新</a></li>
+						<li><a href="#">评价</a></li>
+						<li><a href="#">价格</a></li>
+					</ul>
+				</div>
+				<!--多看阅读分类全部图书结束-->
+				<!--多看阅读图书分类body部分开始-->
+				<ul class="DK-classift-right-body" id="DK-xsfiction">
+				</ul>
+					<script type="text/html" id="xsfiction">
+					{{each product item i}}
+					<li>
+						<!--图片图片-->
+						<div class="DK-classift-img">
+							<a href="detailPage.html?id={{ item.id }}" class="DK-classift-right-body-img">
+								<img src="{{item.url}}">
+							</a>
+							<!--图书价格-->
+							<div class="DK-classift-price">
+								<span>¥{{item.price}}</span>
+								<span>¥{{item.oldprice}}</span>
+							</div>
+						</div>
+						<!--图书书名-->
+						<div class="DK-classift-title1">
+							<div class="DK-classift-title">
+								<a href="detailPage.html?id={{ item.id }}">{{item.name}}</a>
+								<span></span>
+								<b>{{item.author}}</b>
+								<p>{{item.edition}}</p>
+							</div>
+							<!--图书加入购物车-->
+							<div class="DK-classift-shopping">
+								<div class="DK-classift-shopping1" title="添加购物车"><span>id={{item.id}}</span></div>
+								<div class="DK-classift-shopping2" title="添加收藏">
+								</div>
+							</div>
+						</div>
+					</li>
+					{{/each}}
+				</script>
+					
+				
+				<!--多看阅读图书分类body部分结束-->
+			</div>
+			<!--多看阅读分类右边部分结束-->
+		</div>
+		<!--多看阅读分类主体部分结束-->
+		<!--多看阅读底部开始-->
+		<footer>
+			
+		</footer>
+		<!--多看阅读底部结束-->
+		<!--加入购物车确认弹框开始-->
+		<div class="shopping-affirm">
+			<div class="shopping-affirm-body">
+				<div class="shopping-affirm-img">
+					<h2>已将图书添加到购物车</h2>
+					<a href="shopping.html">去购物车结算</a>
+					<a href="avascript:void(0);" class="shopping-affirm-img-btn">继续选书</a>
+				</div>
+			</div>
+		</div>
+		<!--加入购物车确认弹框结束-->
+	</body>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/classift.js"></script>
+</html>
